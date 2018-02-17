@@ -1,5 +1,5 @@
 # Lazy Await
-An await expression will always pause an async function's execution until its promise is reloved or rejected. This proposal introduces `await*` expressions that do not wait until return value is needed.
+An await expression will always pause an async function's execution until its promise is reloved or rejected. This proposal introduces `await*` expressions that do not wait until the awaited value is needed.
 
 For example:
 ```javascript
